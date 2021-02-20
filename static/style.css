@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+}
+body {
+  background-color: #262626;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: black;
+  height: 50px;
+}
+nav h1 {
+  color: white;
+  font-size: 30px;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+nav div a:hover {
+  border-bottom: 2px solid yellow;
+}
+#main-index {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 90vh;
+}
+
+#main-index img {
+  width: 400px;
+}
+#main-index div h2 {
+  font-size: 40px;
+}
+#main-index div p {
+  font-size: 20px;
+}
+#main-index div a {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid yellow;
+  color: yellow;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+#main-index div a:hover {
+  background-color: yellow;
+  color: #262626;
+}
+footer p {
+  text-align: center;
+}
+
+#TASK {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
+#TASK form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#TASK form textarea {
+  width: 400px;
+  height: 150px;
+  padding: 15px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+#TASK button {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid yellow;
+  color: white;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+#TASK button:hover {
+  background-color: yellow;
+  color: #262626;
+}
+#TASK form textarea::placeholder {
+  color: white;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#tasks {
+  min-height: 400px;
+  width: 800px;
+  background-color: #111;
+  margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/task.png" type="image/png">
+    <title>tasker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Task<span style="color: yellow;">er</span></h1>
+            <div>
+                <a href="/">Home</a>
+                <a href="/task">Task</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main id="TASK">
+        <form action="/task" method="post">
+            <textarea placeholder="task..." name="cont"></textarea>
+            <button>add</button>
+        </form>
+        <div id="tasks">
+
+        </div>
+    </main>
+    <footer>
+        <p>© All rights reserved | disigned by Hamouda Ben Abdennebi </p>
+    </footer>
+</body>
+</html>
